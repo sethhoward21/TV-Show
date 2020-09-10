@@ -19,11 +19,16 @@ a {
 
 p {
     font-size: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: wheat;
+    background-color: wheat;
+    box-shadow: 5px 5px 3px 1px;
 
 }
 
 .description {
-    background-color: rgb(27, 123, 187);
+    background-color: wheat;
 }
 
 #links {
@@ -36,4 +41,10 @@ width: 200px;
 #content {
     margin-left: 200px;
 
+}
+
+.photo {
+    border-style: solid;
+    border-color: burlywood;
+    box-shadow: inset 3px 3px 3px 1px
 }
